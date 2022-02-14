@@ -1,0 +1,32 @@
+{
+  "name": "my_portfolio",
+  "version": "1.0.0",
+  "description": "portfolio",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/islamnasseur95/My_Portfolio.git"
+  },
+  "keywords": [
+    "islam",
+    "nasseur",
+    "portfolio"
+  ],
+  "author": "islam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/islamnasseur95/My_Portfolio/issues"
+  },
+  "homepage": "https://github.com/islamnasseur95/My_Portfolio#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  }
+}
